@@ -97,6 +97,7 @@ ul li:hover .trash{
 
 ul {
     margin-top: 1rem;
+	overflow-y: scroll;
 }
 
 input#inputBox {
