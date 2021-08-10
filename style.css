@@ -147,6 +147,8 @@ input#inputBox {
 
     #closeBtn{
         margin-left: 160px!important;
+	 margin-top: 70px!important;
+
     }
 
     .todoContent img{
@@ -214,7 +216,7 @@ footer{
 .pop i{
     position: absolute;
     top: 15px;
-	right: 20px;
+    right: 20px;
     font-size: 1.6rem;
     color: white;
     cursor: pointer;
