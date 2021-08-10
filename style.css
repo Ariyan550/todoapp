@@ -183,9 +183,9 @@ footer{
     top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-    width:290px;
+    width:2960px;
     background: #9b59b6;
-    height: 300px;
+    height: 350px;
     padding:1rem;
     color:black;
     display: none;
