@@ -1,0 +1,231 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+html{
+	font-family: 'Josefin Sans', sans-serif;
+}
+.wrapper{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	padding: 1rem;
+	box-shadow: 0px 6px 23px 3px rgba(0,0,0,0.1);
+}
+
+.header h2{
+	font-size: 1.8rem;
+	margin: 1rem 0rem;
+	font-weight: bold;
+    text-shadow: 0px 3px 4px rgba(0,0,0,0.1),
+                0px 4px 5px rgba(0,0,0,0.1);
+}
+
+button.btn {
+    outline: none;
+    background: #9b59b6;
+    color: white;
+    border: none;
+    padding: 0.4rem 0.8rem;
+    cursor: pointer;
+    box-shadow:0px 4px 5px rgba(0,0,0,0.1);
+}
+
+button.btn.active{
+    background: purple;
+}
+
+
+.btn2{
+	outline: none;
+    background: purple;
+    color: white;
+    border: none;
+    padding: 0.4rem 0.4rem;
+    cursor: pointer;
+    border-radius: 2px;
+    box-shadow:0px 4px 5px rgba(0,0,0,0.1);
+    text-shadow: 0px 3px 4px rgba(0,0,0,0.1),
+    0px 4px 5px rgba(0,0,0,0.1);
+
+}
+
+
+button.btn i{
+	font-size: 1.2rem;
+}
+
+button.trash {
+    outline: none;
+    border: none;
+    background: #d63031;
+    padding: 6px 10px;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    right: -36px;
+    top: 3px;
+    transition: all .3s ease-in-out;
+}
+
+button.trash i {
+    font-size: 1.2rem;
+}
+
+ul li {
+    font-size: 1.3rem;
+    font-weight: 600;
+    position: relative;
+    background: #dfe6e9;
+    padding: 0.5rem;
+    color: purple;
+    margin-top: 0.4rem;
+    overflow: hidden;
+	list-style: none;
+
+}
+
+
+ul li:hover .trash{
+	right: 0;
+}
+
+
+ul {
+    margin-top: 1rem;
+}
+
+input#inputBox {
+    width: 200px;
+    height: 32px;
+    outline: none;
+    box-shadow: 0px 8px 17px rgba(0,0,0,0.1);
+    padding: 0.5rem;
+    border: 0.1rem solid purple;
+}
+
+
+.footer {
+    margin-top:1.5rem;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer h3{
+    font-size:1rem
+ 
+}
+
+.todoContent {
+    padding: 0.5rem;
+}
+
+@media all and (max-width:568px){
+
+	.wrapper{
+		width: 296px;
+	}
+    footer h4{
+        font-size: 1.2rem;
+        width: 250px;
+        margin:0 auto ;
+    }
+
+    .pop{
+        top: 50% !important;
+        width: 270px!important;
+        height: auto;
+    }
+}
+
+
+footer{
+    text-align: center;
+    text-transform: capitalize;;
+    font-weight: bold;
+    font-size: 2rem;
+    padding-top: 1rem;
+    width: 400px;
+    margin: 0 auto;
+}
+
+.icon{
+    outline: none;
+    background:#4267B2 ;
+    color: white;
+    border: none;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 20px;
+    line-height: 20px;
+    font-size: 1.1rem;
+
+}
+
+.todoContent img{
+    width:40px;
+    height: auto;
+    margin-left: 100px;
+    box-shadow:0px 4px 5px rgba(0,0,0,0.1);
+
+}
+
+
+
+.pop{
+    position: absolute;
+    top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+    width:290px;
+    background: #9b59b6;
+    height: 300px;
+    padding:1rem;
+    color:black;
+    display: none;
+    border-radius: 0px 40px 0px 40px;
+
+}
+
+.pop i{
+    position: absolute;
+    top: 15px;
+	right: 20px;
+    font-size: 1.6rem;
+    color: white;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.pop i:hover{
+    transform: rotate(90deg);
+    color: tomato;
+}
+
+.popContent{
+    margin-left: 1rem;
+    color: white;
+}
+
+
+.popContent ol{
+    margin-top:1rem;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.popContent ol li{
+    margin-top:0.5rem;
+}
+
+#closeBtn{
+    margin-top: 60px;
+    margin-left: 170px;
+    font-size: 1rem;
+}

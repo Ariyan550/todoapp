@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ToDo App</title>
+	<link rel="icon" href="favicon.ico" type="image/x-icon"/>
+	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	
+
+<div class="wrapper"> 
+<div class="todoContent">
+	<img src="icon.png" alt="">
+	<div class="header">
+		<h2>ToDo App</h2>
+	</div>
+	<div class="inputBtn"> 
+		<input placeholder="Add your new todo" type="text" id="inputBox">
+		<button class="btn"> <i class="fa fa-plus"></i> </button>
+	</div>
+	<ul class="list"> 
+	</ul>
+	<div class="footer"> 
+		<h3>you have <span class="count"></span> pending task</h3>
+		<button class="btn2">Clear all</button>
+	</div>
+
+</div>
+</div>
+
+
+<footer> 
+<h4>design and development by ariyan rumi</h4>
+<a target="_blank" title="Click here to facebook profile" href="https://www.facebook.com/profile.php?id=100006095925909"><button class="icon"><i class="fa fa-facebook"></i></button>
+</a>
+</footer>
+
+<audio id="addSound">
+	<source src="add.mp3" type="audio/mp3">
+</audio>
+
+<audio id="trashCan">
+	<source src="trash.mp3" type="audio/mp3">
+</audio>
+
+
+
+<div class="pop"> 
+	
+	<i onclick="closeTime()" class="fa fa-times"></i>
+	<div class="popContent"> 
+		<h3>Changelog..</h3>
+		<span>version 1.5</span>
+		<ol> 
+			<li>added new plus sound effect</li>
+			<li>added remove sound effect</li>
+			<li>added todo icon</li>
+			<li>added fab icon</li>
+			<li>and some redesign</li>
+		</ol>
+		<button onclick="closeBtn()" id="closeBtn" class="btn">Close</button>
+	</div>
+	
+</div>
+
+
+
+
+
+	<script src="custom.js"></script>
+</body>
+</html>
