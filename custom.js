@@ -93,17 +93,17 @@ localStorage.setItem('new todo', JSON.stringify(listArr));
 
 function closeTime(){
 	pophover.style.display="none";
-	pophover.style.overflow="scroll";
+	
 }
 
  function showpop(){
 	 pophover.style.display="block";
-	 pophover.style.overflow="hidden";
+	 
  }
 
  function closeBtn(){
 	pophover.style.display="none";
-	 pophover.style.overflow="scroll";
+	 
 }
 
 
