@@ -11,7 +11,7 @@ html{
 .wrapper{
     width:470px;
 	position: absolute;
-	top: 50%;
+	top: 52%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	padding: 1rem;
@@ -141,8 +141,16 @@ input#inputBox {
 
     .pop{
         top: 50% !important;
-        width: 270px!important;
+        width: 300px!important;
         height: auto;
+    }
+
+    #closeBtn{
+        margin-left: 160px!important;
+    }
+
+    .todoContent img{
+        margin-left:150px!important; 
     }
 
     input#inputBox{
@@ -181,7 +189,7 @@ footer{
 .todoContent img{
     width:40px;
     height: auto;
-    margin-left: 150px;
+    margin-left: 200px;
     box-shadow:0px 4px 5px rgba(0,0,0,0.1);
 
 }
@@ -193,9 +201,9 @@ footer{
     top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-    width:290px;
+    width:400px;
     background: #9b59b6;
-    height: 300px;
+    height: 350px;
     padding:1rem;
     color:black;
     display: none;
@@ -235,7 +243,7 @@ footer{
 }
 
 #closeBtn{
-    margin-top: 60px;
-    margin-left: 170px;
+    margin-top: 110px;
+    margin-left: 250px;
     font-size: 1rem;
 }
